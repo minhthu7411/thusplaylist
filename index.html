@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="stylesheet"
+            href="./assets/font/fontawesome-free-6.2.0-web/css/all.css"
+            rel="stylesheet"
+        />
+        <link
+            href="./assets/font/fontawesome-free-6.2.0-web/css/fontawesome.css"
+            rel="stylesheet"
+        />
+        <link rel="shortcut icon" href="#" />
+
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="./assets/img/meonghenhac.jpg"
+        />
+        <title>Music Player</title>
+    </head>
+    <body>
+        <div class="music_player">
+            <!-- Header -->
+            <header class="mp__header">
+                <span class="list-icon">
+                    <i class="fa-solid fa-list-ul"></i>
+                </span>
+
+                <span class="title"> Now playing: </span>
+
+                <span class="favorite">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <i class="fa-solid fa-heart heart-icon-red"></i>
+                </span>
+            </header>
+
+            <!-- Music Card -->
+            <div class="cd">
+                <img src="" alt="" class="cd__img" />
+            </div>
+
+            <div class="song">
+                <h3 class="song__name"></h3>
+                <p class="song__singer"></p>
+            </div>
+
+            <!-- Thanh tiến trình -->
+            <div class="progress-bar">
+                <div class="progress-bar__value"></div>
+            </div>
+
+            <div class="progress-time">
+                <span class="progress-time__current">00:00</span>
+                <span class="progress-time__duration">00:00</span>
+            </div>
+            <!-- Các nút điều khiển -->
+            <div class="control">
+                <div class="btn__shuffle">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+
+                <div class="btn__prev">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+
+                <div class="btn__play">
+                    <i class="fa-solid fa-circle-play btn__play-icon"></i>
+                    <i class="fa-solid fa-circle-pause btn__pause-icon"></i>
+                </div>
+
+                <div class="btn__next">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+
+                <div class="btn__repeat">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+            </div>
+
+            <!-- Điều chỉnh âm lượng -->
+            <div class="volume-change">
+                <div class="volume">
+                    <i class="fa-solid fa-volume-high volume--high active"></i>
+                    <i class="fa-solid fa-volume-low volume--low"></i>
+                    <i class="fa-solid fa-volume-xmark volume--mute"></i>
+                </div>
+
+                <div class="volume-bar">
+                    <div class="volume-bar__value"></div>
+                </div>
+            </div>
+        </div>
+
+        <audio src="" id="audio"></audio>
+
+        <div class="playlist__container">
+            <div class="playlist">
+               <header class="playlist__header">
+                    <!-- BẤM VÀO ĐÂY ĐỂ CUỘN LÊN ĐẦU -->
+                    <h3 class="playlist-title" title="Nhấn để cuộn lên đầu playlist">My playlist</h3>
+
+                    <div class="playlist__search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="playlistSearch" placeholder="Tìm bài hát, ca sĩ...">
+                    </div>
+
+                    <div class="scroll-to-bottom" title="Cuộn xuống cuối">
+                        <i class="fa-solid fa-angles-down"></i>
+                    </div>
+    
+                    <span class="playlist__icon-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </span>
+                </header>
+
+                <ul class="playlist__list">
+                    <!-- <li class="playlist__item">
+                    <div class="playlist__item-img">
+                        <img src="./assets/img/adventureofalifetime.jpg" alt="">
+                    </div>
+                    <div class="playlist__item-info">
+                        <h3 class="playlist__item-name">
+                            Somewhere
+                        </h3>
+                        <p class="playlist__item-singer">
+                            Groovyroom
+                        </p>
+                    </div>
+                    <div class="music-waves">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="playlist__item-option">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </span>
+                </li> -->
+                </ul>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
