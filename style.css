@@ -32,7 +32,8 @@ html {
 }
 
 body {
-    background: linear-gradient(45deg, #4bc0c8 0%, #c779d0 50%, #feac5e 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -72,12 +73,8 @@ body {
 
 .playlist {
     width: 400px;
-    background-image: linear-gradient(
-        45deg,
-        #4bc0c8 0%,
-        #c779d0 50%,
-        #feac5e 100%
-    );
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
     border-radius: 10px;
     box-shadow: 0 0 7px rgb(0 0 0 / 30%);
 }
@@ -246,12 +243,8 @@ body {
 .playlist__item.active {
     border: 2px solid #ffe7e7;
     border-radius: 8px;
-    background-image: linear-gradient(
-        45deg,
-        #4bc0c8 0%,
-        #c779d0 50%,
-        #feac5e 100%
-    );
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
 }
 
 .playlist__item.active:hover {
@@ -587,34 +580,13 @@ body {
     color: #ffe7e7;
 }
 
+.repeat-one.active {
+    color: rgb(181, 16, 16);
+}
+
 /* Hover đẹp */
 .btn__repeat:hover {
     background: rgba(255, 255, 255, 0.12);
-}
-
-/* SỐ 1 – Ở GIỮA, CHỈ HIỆN KHI REPEAT 1 BÀI */
-.btn__repeat--1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 10px;
-    font-weight: bold;
-    color: #ffe7e7;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 2;
-}
-
-/* KHI REPEAT 1 BÀI: ẨN ICON REPEAT, HIỆN SỐ 1 */
-.btn__repeat--1.active {
-    opacity: 1;
-}
-
-.btn__repeat--1.active ~ i,
-.btn__repeat--1.active + i {
-    opacity: 0;
 }
 
 .btn__shuffle:hover {
