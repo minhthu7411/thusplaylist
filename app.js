@@ -1414,6 +1414,18 @@ const app = {
             path: "./assets/music/Sâu trong em - Bích Phương (Disco remix).mp3",
             image: "./assets/img/sautrongemdiscoremix.jpg",
         },
+        {
+            name: "5 Ngón Bàn Tay",
+            singer: "Nguyễn Hùng",
+            path: "./assets/music/5 Ngón Bàn Tay.mp3",
+            image: "./assets/img/5ngonbantay.jpg",
+        },
+        {
+            name: "Hẹn Lần Sau",
+            singer: "MAYDAYs",
+            path: "./assets/music/Hẹn Lần Sau - MAYDAYs.mp3",
+            image: "./assets/img/henlansau.jpg",
+        },
         // {
         //     name: "",
         //     singer: "",
