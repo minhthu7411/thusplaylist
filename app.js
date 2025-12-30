@@ -1426,6 +1426,12 @@ const app = {
             path: "./assets/music/Hẹn Lần Sau - MAYDAYs.mp3",
             image: "./assets/img/henlansau.jpg",
         },
+        {
+            name: "高嶺のなでしこ - THE FIRST TAKE",
+            singer: "HoneyWorks - 可愛くてごめん feat. CHiCO, mona, ハコニワリリィ, 可憐なアイボリー",
+            path: "./assets/music/HoneyWorks - 可愛くてごめん feat. CHiCO, mona, ハコニワリリィ, 可憐なアイボリー, 高嶺のなでしこ - THE FIRST TAKE.mp3",
+            image: "./assets/img/kawaiigomei.jpg",
+        },
         // {
         //     name: "",
         //     singer: "",
