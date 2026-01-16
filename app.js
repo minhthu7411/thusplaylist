@@ -1432,6 +1432,12 @@ const app = {
             path: "./assets/music/HoneyWorks - 可愛くてごめん feat. CHiCO, mona, ハコニワリリィ, 可憐なアイボリー, 高嶺のなでしこ - THE FIRST TAKE.mp3",
             image: "./assets/img/kawaiigomei.jpg",
         },
+        {
+            name: "Wind - THE FIRST TAKE",
+            singer: "Akeboshi",
+            path: "./assets/music/Akeboshi - Wind - THE FIRST TAKE.mp3",
+            image: "./assets/img/windtft.jpg",
+        },
         // {
         //     name: "",
         //     singer: "",
