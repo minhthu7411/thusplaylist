@@ -41,6 +41,12 @@ const app = {
 
     songs: [
         {
+            name: "tâm (orchestra version)",
+            singer: "mer",
+            path: "./assets/music/mer - tâm (orchestra version).mp3",
+            image: "./assets/img/tam-v2.jpg",
+        }, 
+        {
             name: "Tâm",
             singer: "Mer",
             path: "./assets/music/tâm.mp3",
@@ -1397,12 +1403,6 @@ const app = {
             image: "./assets/img/xuanthiHAT.jpg",
         },
         {
-            name: "tâm (orchestra version)",
-            singer: "mer",
-            path: "./assets/music/mer - tâm (orchestra version).mp3",
-            image: "./assets/img/tam-v2.jpg",
-        }, 
-        {
             name: "Nắng Ấm Trong Tim",
             singer: "Duongg (prod. by Dadeon)",
             path: "./assets/music/Duongg - Nắng Ấm Trong Tim (prod. by Dadeon).mp3",
@@ -1438,12 +1438,55 @@ const app = {
             path: "./assets/music/Akeboshi - Wind - THE FIRST TAKE.mp3",
             image: "./assets/img/windtft.jpg",
         },
+        {
+            name: "Không Sao Mà, Em Đây Rồi (với Thắng)",
+            singer: "Suni ft. Thắng",
+            path: "./assets/music/Không Sao Mà, Em Đây Rồi (với Thắng).mp3",
+            image: "./assets/img/khongsaomaemdayroi.png",
+        },
+        {
+            name: "Ấn Nút Trở Về Nhà (Minionz Remix)",
+            singer: "Wxrdie, Sơn Tùng MTP, Đen Vâu, Justatee (Minionz Remix)",
+            path: "./assets/music/Ấn Nút Trở Về Nhà - Wxrdie, Sơn Tùng MTP, Đen Vâu, Justatee (Minionz Remix).mp3",
+            image: "./assets/img/annuttrovenha.jpg",
+        },
+        {
+            name: "Chúng Ta Của Hiện Tại",
+            singer: "Sơn Tùng MTP",
+            path: "./assets/music/Chúng Ta Của Hiện Tại.mp3",
+            image: "./assets/img/chungtacuahientai.webp",
+        },
+        {
+            name: "Đồng Ý (kết hợp với Thơ Tơ Mơ)",
+            singer: "Thắng",
+            path: "./assets/music/Đồng Ý (kết hợp với Thơ Tơ Mơ).mp3",
+            image: "./assets/img/dongy.jpg",
+        },
+        {
+            name: "Đừng Làm Trái Tim Anh Đau",
+            singer: "Sơn Tùng MTP",
+            path: "./assets/music/Đừng Làm Trái Tim Anh Đau - Sơn Tùng MTP.mp3",
+            image: "./assets/img/dunglamtraitimanhdaust.jpg",
+        },
+        {
+            name: "SAO ĐỔI NGÔI",
+            singer: "ĐAN TRƯỜNG",
+            path: "./assets/music/SAO ĐỔI NGÔI - ĐAN TRƯỜNG.mp3",
+            image: "./assets/img/saodoingoi.jpg",
+        },
+        {
+            name: "Hello Vietnam - Beo Dat May Troi at Suntory Hall",
+            singer: "Suntory Hall",
+            path: "./assets/music/Hello Vietnam - Beo Dat May Troi at Suntory Hall.mp3",
+            image: "./assets/img/hellovietnambeodatmaytroi.jpg",
+        },
         // {
         //     name: "",
         //     singer: "",
         //     path: "./assets/music/.mp3",
         //     image: "./assets/img/.jpg",
         // },
+        
     ],
 
     render() {
