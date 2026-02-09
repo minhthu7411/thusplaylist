@@ -1480,6 +1480,12 @@ const app = {
             path: "./assets/music/Hello Vietnam - Beo Dat May Troi at Suntory Hall.mp3",
             image: "./assets/img/hellovietnambeodatmaytroi.jpg",
         },
+        {
+            name: "Đi Về Nhà",
+            singer: "Đen x JustaTee",
+            path: "./assets/music/Đen x JustaTee - Đi Về Nhà.mp3",
+            image: "./assets/img/divenha.jpg",
+        },
         // {
         //     name: "",
         //     singer: "",
