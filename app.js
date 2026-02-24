@@ -1486,6 +1486,30 @@ const app = {
             path: "./assets/music/Đen x JustaTee - Đi Về Nhà.mp3",
             image: "./assets/img/divenha.jpg",
         },
+        {
+            name: "Ai Ngoài Anh",
+            singer: "VSTRA",
+            path: "./assets/music/VSTRA - Ai Ngoài Anh.mp3",
+            image: "./assets/img/aingoaianh.jpg",
+        },
+        {
+            name: "Gió",
+            singer: "marzuz & WEAN",
+            path: "./assets/music/Gió - marzuz & WEAN.mp3",
+            image: "./assets/img/giomarzuz.jpg",
+        },
+        {
+            name: "Vì",
+            singer: "marzuz ft. justatee",
+            path: "./assets/music/marzuz - vì ft. justatee.mp3",
+            image: "./assets/img/vimarzuz.jpg",
+        },
+        {
+            name: "Việt Nam Tinh Hoa",
+            singer: "Nguyễn Hải Phong",
+            path: "./assets/music/Việt Nam Tinh Hoa - Nguyễn Hải Phong.mp3",
+            image: "./assets/img/vietnamtinhhoa.jpg",
+        },
         // {
         //     name: "",
         //     singer: "",
