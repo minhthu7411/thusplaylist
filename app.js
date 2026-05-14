@@ -713,6 +713,12 @@ const app = {
             image: "./assets/img/adios.jpg",
         },
         {
+            name: "No Make Up(노메이크업)",
+            singer: "Zion.T(자이언티)",
+            path: "./assets/music/Zion.T(자이언티) _ No Make Up(노메이크업).mp3",
+            image: "./assets/img/nomakeup.jpg",
+        },
+        {
             name: "YOU",
             singer: "JISOO",
             path: "./assets/music/JISOO - ' YOU '.mp3",
@@ -1392,12 +1398,6 @@ const app = {
         },
         {
             name: "Xuân Thì",
-            singer: "Phan Mạnh Quỳnh",
-            path: "./assets/music/Xuân Thì - Phan Mạnh Quỳnh.mp3",
-            image: "./assets/img/xuanthiPMQ.jpg",
-        },
-        {
-            name: "Xuân Thì",
             singer: "Hà Anh Tuấn",
             path: "./assets/music/Xuân Thì - Hà Anh Tuấn.mp3",
             image: "./assets/img/xuanthiHAT.jpg",
@@ -1565,18 +1565,6 @@ const app = {
             image: "./assets/img/smtm12final.jpg",
         },
         {
-            name: "NGONGIODEMQUATRANGSANGDEMNAY",
-            singer: "NGHIÊM TỔNG & TRẦN TIỂU MUỘI - prod. NGÔ HẠO & MAI CẢNH DỊ",
-            path: "./assets/music/NGHIÊM TỔNG & TRẦN TIỂU MUỘI- NGONGIODEMQUATRANGSANGDEMNAY prod. NGÔ HẠO & MAI CẢNH DỊ.mp3",
-            image: "./assets/img/NGONGIODEMQUATRANGSANGDEMNAY.jpg",
-        },
-        {
-            name: "Tình Nhân Muôn Kiếp",
-            singer: "Thắng",
-            path: "./assets/music/Tình Nhân Muôn Kiếp.mp3",
-            image: "./assets/img/caithu2.jpg",
-        },
-        {
             name: "(SMTM12) 싹",
             singer: "(Feat. 로꼬) (Prod. By GRAY)",
             path: "./assets/music/싹 (Feat. 로꼬) (Prod. By GRAY).mp3",
@@ -1587,6 +1575,18 @@ const app = {
             singer: "(Feat. 로꼬) (Prod. by GRAY)",
             path: "./assets/music/아에이오우 (AEIOU) (Feat. 로꼬) (Prod. by GRAY).mp3",
             image: "./assets/img/smtm12e2.jpg",
+        },
+        {
+            name: "NGONGIODEMQUATRANGSANGDEMNAY",
+            singer: "NGHIÊM TỔNG & TRẦN TIỂU MUỘI - prod. NGÔ HẠO & MAI CẢNH DỊ",
+            path: "./assets/music/NGHIÊM TỔNG & TRẦN TIỂU MUỘI- NGONGIODEMQUATRANGSANGDEMNAY prod. NGÔ HẠO & MAI CẢNH DỊ.mp3",
+            image: "./assets/img/NGONGIODEMQUATRANGSANGDEMNAY.jpg",
+        },
+        {
+            name: "Tình Nhân Muôn Kiếp",
+            singer: "Thắng",
+            path: "./assets/music/Tình Nhân Muôn Kiếp.mp3",
+            image: "./assets/img/caithu2.jpg",
         },
         {
             name: "mới hôm qua",
@@ -1600,13 +1600,183 @@ const app = {
             path: "./assets/music/hoá ra….mp3",
             image: "./assets/img/hoara.png",
         },
+        {
+            name: "2010 Pop Mashup (Pop Danthology 2010)",
+            singer: "Daniel Kim",
+            path: "./assets/music/2010 Pop Mashup (Pop Danthology 2010).mp3",
+            image: "./assets/img/2010popdance.png",
+        },
+        {
+            name: "2011 Pop Mashup (Pop Danthology 2011)",
+            singer: "Daniel Kim",
+            path: "./assets/music/2011 Pop Mashup (Pop Danthology 2011).mp3",
+            image: "./assets/img/2011popdance.jpg",
+        },
+        {
+            name: "Pop Danthology 2012 - Mashup of 50+ Pop Songs",
+            singer: "Daniel Kim",
+            path: "./assets/music/Pop Danthology 2012 - Mashup of 50+ Pop Songs.mp3",
+            image: "./assets/img/2012popdance.jpg",
+        },
+        {
+            name: "Pop Danthology 2013 - Mashup of 68 songs!",
+            singer: "Daniel Kim",
+            path: "./assets/music/Pop Danthology 2013 - Mashup of 68 songs!.mp3",
+            image: "./assets/img/2013popdance.jpg",
+        },
+        {
+            name: "Pop Danthology 2014",
+            singer: "Daniel Kim",
+            path: "./assets/music/Pop Danthology 2014 - Daniel Kim.mp3",
+            image: "./assets/img/2014popdance.jpg",
+        },
+        {
+            name: "Beauty And A Beat",
+            singer: "Justin Bieber ft. Nicki Minaj",
+            path: "./assets/music/Beauty And A Beat -  Justin Bieber.mp3",
+            image: "./assets/img/baab.jpg",
+        },
+        {
+            name: "Đành Quên",
+            singer: "Trúc Duy ft Tony Việt",
+            path: "./assets/music/Đành Quên - Trúc Duy ft Tony Việt.mp3",
+            image: "./assets/img/danhquen.jpg",
+        },
+        {
+            name: "Bad Day",
+            singer: "Daniel Powter",
+            path: "./assets/music/Daniel Powter - Bad Day.mp3",
+            image: "./assets/img/badday.jpg",
+        },
+        {
+            name: "Free Loop",
+            singer: "Daniel Powter",
+            path: "./assets/music/Daniel Powter - Free Loop.mp3",
+            image: "./assets/img/freeloop.jpg",
+        },
+        {
+            name: "I'm the One",
+            singer: "DJ Khaled ft. Justin Bieber, Chance the Rapper, Lil Wayne",
+            path: "./assets/music/DJ Khaled - I'm the One ft. Justin Bieber, Chance the Rapper, Lil Wayne.mp3",
+            image: "./assets/img/imtheone.jpg",
+        },
+        {
+            name: "We Are Young",
+            singer: "Fun ft. Janelle Monáe",
+            path: "./assets/music/Fun.- We Are Young ft. Janelle Monáe.mp3",
+            image: "./assets/img/weareyoungfun.jpg",
+        },
+        {
+            name: "Somebody That I Used To Know",
+            singer: "Gotye (feat. Kimbra)",
+            path: "./assets/music/Gotye - Somebody That I Used To Know (feat. Kimbra).mp3",
+            image: "./assets/img/sbtiutk.jpg",
+        },
+        {
+            name: "Grand Escape - A Weathering With You",
+            singer: "Toko Miura",
+            path: "./assets/music/Grand Escape - A Weathering With You.mp3",
+            image: "./assets/img/grandesscape.jpg",
+        },
+        {
+            name: "Is There Still Anything That Love Can Do",
+            singer: "Radwimps",
+            path: "./assets/music/Is There Still Anything That Love Can Do.mp3",
+            image: "./assets/img/itsattlcd.jpg",
+        },
+        {
+            name: "Le Dem",
+            singer: "8X Band",
+            path: "./assets/music/Le Dem - 8X Band.mp3",
+            image: "./assets/img/ledemx8band.jpg",
+        },
+        {
+            name: "Love Yourself",
+            singer: "Justin Bieber",
+            path: "./assets/music/Love Yourself - Justin Bieber.mp3",
+            image: "./assets/img/loveyourselfjb.jpg",
+        },
+        {
+            name: "Cold Water",
+            singer: "Major Lazer (feat. Justin Bieber & MØ)",
+            path: "./assets/music/Major Lazer - Cold Water (feat. Justin Bieber & MØ).mp3",
+            image: "./assets/img/coldwater.jpg",
+        },
+        {
+            name: "Như ngày xưa em đến",
+            singer: "M4U",
+            path: "./assets/music/Như ngày xưa em đến - M4U.mp3",
+            image: "./assets/img/m4unhungayxuaemden.jpg",
+        },
+        {
+            name: "Please Tell Me Why",
+            singer: "Bảo Thy (ft. Vương Khang)",
+            path: "./assets/music/Please Tell Me Why - Bảo Thy (ft. Vương Khang).mp3",
+            image: "./assets/img/pleasetellmewhy.jpg",
+        },
+        {
+            name: "Gaze",
+            singer: "Rokudenashi",
+            path: "./assets/music/Rokudenashi - Gaze.mp3",
+            image: "./assets/img/Gaze.jpg",
+        },
+        
+        {
+            name: "One Voice",
+            singer: "Rokudenashi",
+            path: "./assets/music/Rokudenashi - One Voice.mp3",
+            image: "./assets/img/onevoice.jpg",
+        },
+        {
+            name: "Spica",
+            singer: "Rokudenashi",
+            path: "./assets/music/Rokudenashi - Spica.mp3",
+            image: "./assets/img/spica.jpg",
+        },
+        {
+            name: "STAY",
+            singer: "Justin Bieber",
+            path: "./assets/music/STAY - Justin Bieber.mp3",
+            image: "./assets/img/stayjb.png",
+        },
+        
+        {
+            name: "What Do You Mean",
+            singer: "Justin Bieber",
+            path: "./assets/music/What Do You Mean - Justin Bieber.mp3",
+            image: "./assets/img/wdymjb.jpg",
+        },
+        {
+            name: "Xin lỗi anh yêu em",
+            singer: "Minh Vương M4u",
+            path: "./assets/music/Xin lỗi anh yêu em - Minh Vương M4u.mp3",
+            image: "./assets/img/xlayemv.jpg",
+        },
+        {
+            name: "スパークル - Your name",
+            singer: "Radwimps",
+            path: "./assets/music/スパークル - Your name.mp3",
+            image: "./assets/img/yournameabc.jpg",
+        },
+        
+        {
+            name: "Va Va Voom",
+            singer: "Nicki Minaj",
+            path: "./assets/music/Nicki Minaj - Va Va Voom.mp3",
+            image: "./assets/img/vavavoom.jpg",
+        },
+        {
+            name: "ロクテナシ言葉の続き - Words to Follow",
+            singer: "Rokudenashi",
+            path: "./assets/music/ロクテナシ言葉の続き- Rokudenashi - Words to Follow.mp3",
+            image: "./assets/img/wordstofollow.png",
+        },
         // {
         //     name: "",
         //     singer: "",
         //     path: "./assets/music/.mp3",
         //     image: "./assets/img/.jpg",
         // },
-        
     ],
 
     render() {
