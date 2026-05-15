@@ -365,12 +365,6 @@ const app = {
             image: "./assets/img/michiteyuku.jpg",
         },
         {
-            name: "FASHO",
-            singer: "GroovyRoom (Feat. pH-1, HAON, TRADE L, Woodie Gochild, BIG Naughty, Sik-K, 박재범, lIlBOI)",
-            path: "./assets/music/GroovyRoom - 'FASHO (Feat. pH-1, HAON, TRADE L, Woodie Gochild, BIG Naughty, Sik-K, 박재범, lIlBOI)' MV.mp3",
-            image: "./assets/img/fasho.jpg",
-        },
-        {
             name: "Hẹn em mai sau gặp lại",
             singer: "Emcee L ft. Lamoon",
             path: "./assets/music/Hẹn em mai sau gặp lại - Emcee L ft. Lamoon (Official MV).mp3",
@@ -1067,12 +1061,6 @@ const app = {
             image: "./assets/img/Backstreetboys.jpg",
         },
         {
-            name: "Just Can't Get Enough",
-            singer: "The Black Eyed Peas",
-            path: "./assets/music/The Black Eyed Peas - Just Can't Get Enough.mp3",
-            image: "./assets/img/justcantgetenough.jpg",
-        },
-        {
             name: "Inochi no Namae",
             singer: "Spirited Away",
             path: "./assets/music/Inochi no Namae - Spirited Away.mp3",
@@ -1415,12 +1403,6 @@ const app = {
             image: "./assets/img/sautrongemdiscoremix.jpg",
         },
         {
-            name: "5 Ngón Bàn Tay",
-            singer: "Nguyễn Hùng",
-            path: "./assets/music/5 Ngón Bàn Tay.mp3",
-            image: "./assets/img/5ngonbantay.jpg",
-        },
-        {
             name: "Hẹn Lần Sau",
             singer: "MAYDAYs",
             path: "./assets/music/Hẹn Lần Sau - MAYDAYs.mp3",
@@ -1565,18 +1547,6 @@ const app = {
             image: "./assets/img/smtm12final.jpg",
         },
         {
-            name: "(SMTM12) 싹",
-            singer: "(Feat. 로꼬) (Prod. By GRAY)",
-            path: "./assets/music/싹 (Feat. 로꼬) (Prod. By GRAY).mp3",
-            image: "./assets/img/smtm12e1.jpg",
-        },
-        {
-            name: "(SMTM12) 아에이오우 (AEIOU)",
-            singer: "(Feat. 로꼬) (Prod. by GRAY)",
-            path: "./assets/music/아에이오우 (AEIOU) (Feat. 로꼬) (Prod. by GRAY).mp3",
-            image: "./assets/img/smtm12e2.jpg",
-        },
-        {
             name: "NGONGIODEMQUATRANGSANGDEMNAY",
             singer: "NGHIÊM TỔNG & TRẦN TIỂU MUỘI - prod. NGÔ HẠO & MAI CẢNH DỊ",
             path: "./assets/music/NGHIÊM TỔNG & TRẦN TIỂU MUỘI- NGONGIODEMQUATRANGSANGDEMNAY prod. NGÔ HẠO & MAI CẢNH DỊ.mp3",
@@ -1703,43 +1673,11 @@ const app = {
             image: "./assets/img/coldwater.jpg",
         },
         {
-            name: "Như ngày xưa em đến",
-            singer: "M4U",
-            path: "./assets/music/Như ngày xưa em đến - M4U.mp3",
-            image: "./assets/img/m4unhungayxuaemden.jpg",
-        },
-        {
-            name: "Please Tell Me Why",
-            singer: "Bảo Thy (ft. Vương Khang)",
-            path: "./assets/music/Please Tell Me Why - Bảo Thy (ft. Vương Khang).mp3",
-            image: "./assets/img/pleasetellmewhy.jpg",
-        },
-        {
-            name: "Gaze",
-            singer: "Rokudenashi",
-            path: "./assets/music/Rokudenashi - Gaze.mp3",
-            image: "./assets/img/Gaze.jpg",
-        },
-        
-        {
-            name: "One Voice",
-            singer: "Rokudenashi",
-            path: "./assets/music/Rokudenashi - One Voice.mp3",
-            image: "./assets/img/onevoice.jpg",
-        },
-        {
-            name: "Spica",
-            singer: "Rokudenashi",
-            path: "./assets/music/Rokudenashi - Spica.mp3",
-            image: "./assets/img/spica.jpg",
-        },
-        {
             name: "STAY",
             singer: "Justin Bieber",
             path: "./assets/music/STAY - Justin Bieber.mp3",
             image: "./assets/img/stayjb.png",
         },
-        
         {
             name: "What Do You Mean",
             singer: "Justin Bieber",
@@ -1764,6 +1702,25 @@ const app = {
             singer: "Nicki Minaj",
             path: "./assets/music/Nicki Minaj - Va Va Voom.mp3",
             image: "./assets/img/vavavoom.jpg",
+        },
+        {
+            name: "Gaze",
+            singer: "Rokudenashi",
+            path: "./assets/music/Rokudenashi - Gaze.mp3",
+            image: "./assets/img/Gaze.jpg",
+        },
+        
+        {
+            name: "One Voice",
+            singer: "Rokudenashi",
+            path: "./assets/music/Rokudenashi - One Voice.mp3",
+            image: "./assets/img/onevoice.jpg",
+        },
+        {
+            name: "Spica",
+            singer: "Rokudenashi",
+            path: "./assets/music/Rokudenashi - Spica.mp3",
+            image: "./assets/img/spica.jpg",
         },
         {
             name: "ロクテナシ言葉の続き - Words to Follow",
