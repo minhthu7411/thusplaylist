@@ -1728,6 +1728,102 @@ const app = {
             path: "./assets/music/ロクテナシ言葉の続き- Rokudenashi - Words to Follow.mp3",
             image: "./assets/img/wordstofollow.png",
         },
+        {
+            name: "Anh Đánh Rơi Người Yêu Này",
+            singer: "Andiez ft. AMEE",
+            path: "./assets/music/Anh Đánh Rơi Người Yêu Này - Andiez ft. AMEE.mp3",
+            image: "./assets/img/anhdanhroinynay.jpg",
+        },
+        {
+            name: "DO FOR LOVE",
+            singer: "B RAY x AMEE x MASEW",
+            path: "./assets/music/DO FOR LOVE - B RAY x AMEE x MASEW.mp3",
+            image: "./assets/img/doforlove.jpg",
+        },
+        {
+            name: "Firestone",
+            singer: "Kygo ft. Conrad Sewell",
+            path: "./assets/music/Firestone - Kygo ft. Conrad Sewell.mp3",
+            image: "./assets/img/firestone.jpg",
+        },
+        {
+            name: "FORGET ABOUT HER",
+            singer: "TOULIVER X JUSTATEE",
+            path: "./assets/music/FORGET ABOUT HER - TOULIVER X JUSTATEE.mp3",
+            image: "./assets/img/forgetabouther.jpg",
+        },
+        {
+            name: "Gác Lại Âu Lo",
+            singer: "Da LAB ft. Miu Le",
+            path: "./assets/music/Gác Lại Âu Lo - Da LAB ft. Miu Le.mp3",
+            image: "./assets/img/gaclaiaulo.jpg",
+        },
+        {
+            name: "Heaven On Your Mind",
+            singer: "Kygo, Dan Tyminski",
+            path: "./assets/music/Heaven On Your Mind - Kygo, Dan Tyminski.mp3",
+            image: "./assets/img/heavenonyourmind.jpg",
+        },
+        {
+            name: "nàng thơ.. trời giấu trời mang đi",
+            singer: "AMEE & Hoàng Dũng",
+            path: "./assets/music/nàng thơ.. trời giấu trời mang đi - AMEE & Hoàng Dũng.mp3",
+            image: "./assets/img/nangthotroigiautroimangdi.jpg",
+        },
+        {
+            name: "Phật Đảnh Tôn Thắng Đà Ra Ni (Usnisa Vijaya Dharani)",
+            singer: "Tinna Tình x Masew",
+            path: "./assets/music/Phật Đảnh Tôn Thắng Đà Ra Ni ( Usnisa Vijaya Dharani) - Tinna Tình x Masew.mp3",
+            image: "./assets/img/phatdanhtonthangdarani.jpg",
+        },
+        {
+            name: "Thức Giấc",
+            singer: "Da LAB",
+            path: "./assets/music/Thức Giấc - Da LAB.mp3",
+            image: "./assets/img/thucgiac.jpg",
+        },
+        {
+            name: "Thương Nhiều Hơn Nói",
+            singer: "Nhóm Nhạc ... (Đạt G, B Ray, Masew)",
+            path: "./assets/music/Thương Nhiều Hơn Nói - Nhóm Nhạc ... (Đạt G, B Ray, Masew).mp3",
+            image: "./assets/img/thuongnhieuhonnoi.jpg",
+        },
+        {
+            name: "Trời Giấu Trời Mang Đi",
+            singer: "Amee",
+            path: "./assets/music/Trời Giấu Trời Mang Đi - Amee.mp3",
+            image: "./assets/img/troigiautroimangdi.jpg",
+        },
+        {
+            name: "Walk Thru Fire",
+            singer: "Vicetone ft. Meron Ryan",
+            path: "./assets/music/Walk Thru Fire - Vicetone ft. Meron Ryan.mp3",
+            image: "./assets/img/walkthroufire.jpg",
+        },
+        {
+            name: "VẠN SỰ NHƯ Ý",
+            singer: "Trúc Nhân",
+            path: "./assets/music/VẠN SỰ NHƯ Ý - Trúc Nhân.mp3",
+            image: "./assets/img/vansunhuytrucnhan.jpg",
+        },
+        {
+            name: "Way Back",
+            singer: "Vicetone (feat. Cozi Zuehlsdorff)",
+            path: "./assets/music/Way Back - Vicetone (feat. Cozi Zuehlsdorff).mp3",
+            image: "./assets/img/wayback.jpg",
+        },
+        {
+            name: "tu thich thich thanh thuong thuong",
+            singer: "AMEE & Hoàng Dũng",
+            path: "./assets/music/tu thich thich thanh thuong thuong - AMEE & Hoàng Dũng.mp3",
+            image: "./assets/img/tuthichthichthanthuonthuong.jpg",
+        },
+        {
+            name: "MẮT BÃO (OST Tiểu Đội 1978)",
+            singer: "Tọi x Long Nón Lá x Phương Nghiêm",
+            path: "./assets/music/MẮT BÃO (OST Tiểu Đội 1978) - Tọi x Long Nón Lá x Phương Nghiêm.mp3",
+            image: "./assets/img/matbao.jpg",
+        },
         // {
         //     name: "",
         //     singer: "",
@@ -1884,17 +1980,38 @@ handleEvents() {
     };
 
     // Tua nhạc
-    let isHolding = false;
-    progressBar.onmousedown = (e) => {
-        isHolding = true;
-        audio.currentTime = (e.offsetX / progressBar.offsetWidth) * audio.duration;
-    };
-    progressBar.onmousemove = (e) => {
-        if (isHolding) {
-            audio.currentTime = (e.offsetX / progressBar.offsetWidth) * audio.duration;
-        }
-    };
-    window.onmouseup = () => isHolding = false;
+    let isSeeking = false;
+
+    progressBar.addEventListener('mousedown', () => {
+    isSeeking = true;
+    });
+
+    progressBar.addEventListener('input', (e) => {
+    if (audioPlayer.duration) {
+        const seekTime = (e.target.value / 100) * audioPlayer.duration;
+        audioPlayer.currentTime = seekTime;
+        currentTimeEl.textContent = formatTime(seekTime);
+    }
+    });
+
+    window.addEventListener('mouseup', () => {
+    isSeeking = false;
+    });
+
+    // Cập nhật progress bar (không ghi đè khi đang kéo)
+    function updateProgress() {
+    if (audioPlayer.duration && !isSeeking) {
+        const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+        progressBar.value = progress;
+        currentTimeEl.textContent = formatTime(audioPlayer.currentTime);
+
+        progressBar.style.background = `linear-gradient(to right, 
+        #a78bfa 0%, 
+        #ec4899 ${progress / 2}%, 
+        #f97316 ${progress}%, 
+        #e5e7eb ${progress}%)`;
+    }
+    }
 
     // Next / Prev
     btnNext.onclick = () => { _this.isRandom ? _this.randomSong() : _this.nextSong(); audio.play(); };
@@ -2212,8 +2329,6 @@ setTimeout(() => {
     });
 
 }, 1000);
-
-
 
 // BUỘC IPHONE HIỆN NÚT NEXT/PREV BÀI + SỬA LỖI NOW PLAYING TRẮNG
 setTimeout(() => {
