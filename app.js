@@ -2190,23 +2190,17 @@ handleEvents() {
     };
 
     // Tua nhạc
-    let isSeeking = false;
-
-    progressBar.addEventListener('mousedown', () => {
-    isSeeking = true;
-    });
-
-    progressBar.addEventListener('input', (e) => {
-    if (audioPlayer.duration) {
-        const seekTime = (e.target.value / 100) * audioPlayer.duration;
-        audioPlayer.currentTime = seekTime;
-        currentTimeEl.textContent = formatTime(seekTime);
-    }
-    });
-
-    window.addEventListener('mouseup', () => {
-    isSeeking = false;
-    });
+    let isHolding = false;
+    progressBar.onmousedown = (e) => {
+        isHolding = true;
+        audio.currentTime = (e.offsetX / progressBar.offsetWidth) * audio.duration;
+    };
+    progressBar.onmousemove = (e) => {
+        if (isHolding) {
+            audio.currentTime = (e.offsetX / progressBar.offsetWidth) * audio.duration;
+        }
+    };
+    window.onmouseup = () => isHolding = false;
 
     // Next / Prev
     btnNext.onclick = () => { _this.isRandom ? _this.randomSong() : _this.nextSong(); audio.play(); };
