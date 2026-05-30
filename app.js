@@ -1079,6 +1079,12 @@ const app = {
             image: "./assets/img/blueyungkai.jpg",
         },
         {
+            name: "Túy Âm",
+            singer: "Xesi x Masew x Nhatnguyen",
+            path: "./assets/music/Túy Âm - Xesi x Masew x Nhatnguyen.mp3",
+            image: "./assets/img/tuyam.jpg",
+        },
+        {
             name: "You Be Love",
             singer: "Avicii ft. Billy Raffoul",
             path: "./assets/music/Avicii - You Be Love ft. Billy Raffoul.mp3",
@@ -1786,7 +1792,7 @@ const app = {
             name: "Thương Nhiều Hơn Nói",
             singer: "Nhóm Nhạc ... (Đạt G, B Ray, Masew)",
             path: "./assets/music/Thương Nhiều Hơn Nói - Nhóm Nhạc ... (Đạt G, B Ray, Masew).mp3",
-            image: "./assets/img/thuongnhieuhonnoi.jpg",
+            image: "./assets/img/thuongnhieuhononi.jpg",
         },
         {
             name: "Trời Giấu Trời Mang Đi",
@@ -1823,6 +1829,210 @@ const app = {
             singer: "Tọi x Long Nón Lá x Phương Nghiêm",
             path: "./assets/music/MẮT BÃO (OST Tiểu Đội 1978) - Tọi x Long Nón Lá x Phương Nghiêm.mp3",
             image: "./assets/img/matbao.jpg",
+        },
+        {
+            name: "Chênh Vênh",
+            singer: "Lê Cát Trọng Lý",
+            path: "./assets/music/Chênh Vênh - Lê Cát Trọng Lý.mp3",
+            image: "./assets/img/lecattrongly.jpg",
+        },
+        {
+            name: "Cho",
+            singer: "Ngọt",
+            path: "./assets/music/Cho - Ngọt.mp3",
+            image: "./assets/img/chongot.jpg",
+        },
+        {
+            name: "Cho Tôi Đi Theo",
+            singer: "Ngọt",
+            path: "./assets/music/Cho Tôi Đi Theo - Ngọt.mp3",
+            image: "./assets/img/chotoiditheo.jpg",
+        },
+        {
+            name: "CHUYỆN ĐỜI",
+            singer: "JGKiD",
+            path: "./assets/music/CHUYỆN ĐỜI - JGKiD.mp3",
+            image: "./assets/img/chuyendoithom.jpg",
+        },
+        {
+            name: "Cổ Điển (Classic Love)",
+            singer: "Tofu x VoVanDuc",
+            path: "./assets/music/Cổ Điển (Classic Love) - Tofu x VoVanDuc.mp3",
+            image: "./assets/img/codien.jpg",
+        },
+        {
+            name: "Cổ lùn",
+            singer: "JGKID ft. Emcee L",
+            path: "./assets/music/Cổ lùn - JGKID ft. Emcee L.mp3",
+            image: "./assets/img/colun.jpg",
+        },
+        {
+            name: "để quên",
+            singer: "Ngọt",
+            path: "./assets/music/để quên - Ngọt.mp3",
+            image: "./assets/img/dequenngot.jpg",
+        },
+        {
+            name: "Đến Giờ Cơm (XHTDRLX2)",
+            singer: "Ái Phương",
+            path: "./assets/music/Đến Giờ Cơm (XHTDRLX2) - Ái Phương.mp3",
+            image: "./assets/img/dengiocomaiphuong.jpg",
+        },
+        {
+            name: "Đi Qua Hoa Cúc",
+            singer: "TeA ft. VoVanDuc",
+            path: "./assets/music/Đi Qua Hoa Cúc - TeA ft. VoVanDuc.mp3",
+            image: "./assets/img/diquahoacuc.jpg",
+        },
+        {
+            name: "Đôi Bờ",
+            singer: "Lê Cát Trọng Lý",
+            path: "./assets/music/Đôi Bờ - Lê Cát Trọng Lý.mp3",
+            image: "./assets/img/lecattrongly.jpg",
+        },
+        {
+            name: "Đốt",
+            singer: "Ngọt",
+            path: "./assets/music/Đốt - Ngọt.mp3",
+            image: "./assets/img/dotngot.jpg",
+        },
+        {
+            name: "Em dao nay",
+            singer: "Ngọt",
+            path: "./assets/music/Em dao nay - Ngọt.mp3",
+            image: "./assets/img/emdaonayngot.jpg",
+        },
+        {
+            name: "Em Không Hiểu",
+            singer: "Changg (ft Minh Huy)",
+            path: "./assets/music/Em Không Hiểu - Changg (ft Minh Huy).mp3",
+            image: "./assets/img/emkhonghieuchangg.jpg",
+        },
+        {
+            name: "Em Trang Trí",
+            singer: "Ngọt",
+            path: "./assets/music/Em Trang Trí - Ngọt.mp3",
+            image: "./assets/img/emtrangtri.jpg",
+        },
+        {
+            name: "GHÉ QUA",
+            singer: "Dick x PC x Tofu",
+            path: "./assets/music/GHÉ QUA - Dick x PC x Tofu.mp3",
+            image: "./assets/img/ghequa.jpg",
+        },
+        {
+            name: "Giấc Mộng Lớn",
+            singer: "Lê Cát Trọng Lý",
+            path: "./assets/music/Giấc Mộng Lớn - Lê Cát Trọng Lý.mp3",
+            image: "./assets/img/lecattrongly.jpg",
+        },
+        {
+            name: "Hát cho đời và hát cho em",
+            singer: "Thơm, Đen, Long, Thỏ",
+            path: "./assets/music/Hát cho đời và hát cho em - Thơm, Đen, Long, Thỏ.mp3",
+            image: "./assets/img/hatchodoihatchoem.jpg",
+        },
+        {
+            name: "Hoàng hôn",
+            singer: "Đen ft Worm JB, Sol'bass & LongMin",
+            path: "./assets/music/Hoàng hôn - Đen ft Worm JB, Sol'bass & LongMin.mp3",
+            image: "./assets/img/hoanghonsolbass.jpg",
+        },
+        {
+            name: "Homie",
+            singer: "Rhymastic",
+            path: "./assets/music/Homie - Rhymastic.mp3",
+            image: "./assets/img/rhymastic.jpg",
+        },
+        {
+            name: "Không Làm Gì",
+            singer: "Ngọt",
+            path: "./assets/music/Không Làm Gì - Ngọt.mp3",
+            image: "./assets/img/khonglamgingot.jpg",
+        },
+        {
+            name: "LẠC",
+            singer: "Rhymastic",
+            path: "./assets/music/LẠC - Rhymastic.mp3",
+            image: "./assets/img/rhymastic.jpg",
+        },
+        {
+            name: "Late Night",
+            singer: "Andree (ft. Rhymastic)",
+            path: "./assets/music/Late Night - Andree (ft. Rhymastic).mp3",
+            image: "./assets/img/latenightandree.jpg",
+        },
+        {
+            name: "Mấy Khi",
+            singer: "Ngọt",
+            path: "./assets/music/Mấy Khi - Ngọt.mp3",
+            image: "./assets/img/maykhingot.jpg",
+        },
+        {
+            name: "Mơ",
+            singer: "Đen ft. Hậu Vi (Prod. River Beats)",
+            path: "./assets/music/Mơ - Đen ft. Hậu Vi (Prod. River Beats).mp3",
+            image: "./assets/img/modenvau.jpg",
+        },
+        {
+            name: "Nhiều Người Ôm Giấc Mơ",
+            singer: "Lê Cát Trọng Lý",
+            path: "./assets/music/Nhiều Người Ôm Giấc Mơ - Lê Cát Trọng Lý.mp3",
+            image: "./assets/img/lecattrongly.jpg",
+        },
+        {
+            name: "Nhìn",
+            singer: "Đa Sắc ft Đen (Mixtape Sắc Đời)",
+            path: "./assets/music/Nhìn - Đa Sắc ft Đen (Mixtape Sắc Đời).mp3",
+            image: "./assets/img/nhindasac.jpg",
+        },
+        {
+            name: "NỨT (đôi chân đôi tay đôi mắt trái tim)",
+            singer: "Ngọt",
+            path: "./assets/music/NỨT (đôi chân đôi tay đôi mắt trái tim) - Ngọt.mp3",
+            image: "./assets/img/nutngot.jpg",
+        },
+        {
+            name: "Qua Những Tiếng Ve",
+            singer: "ToFu ft. Xesi & Urabe ( Prod. by VoVanDuc )",
+            path: "./assets/music/Qua Những Tiếng Ve - ToFu ft. Xesi & Urabe ( Prod. by VoVanDuc ).mp3",
+            image: "./assets/img/quanhungtiengve.jpg",
+        },
+        {
+            name: "Sunshine Alone",
+            singer: "Binz (ft. Rhymastic)",
+            path: "./assets/music/Sunshine Alone - Binz (ft. Rhymastic).mp3",
+            image: "./assets/img/sunshinealone.jpg",
+        },
+        {
+            name: "Ta Và Nàng",
+            singer: "JGKiD ft ĐEN",
+            path: "./assets/music/Ta Và Nàng - JGKiD ft ĐEN.mp3",
+            image: "./assets/img/tavanang.jpg",
+        },
+        {
+            name: "Tan ka ka a k a Ganja",
+            singer: "JGKiD , Đen, EmceeL, KraziNoyze, DSK",
+            path: "./assets/music/Tan ka ka a k a Ganja - JGKiD , Đen, EmceeL, KraziNoyze, DSK.mp3",
+            image: "./assets/img/tankaaaaaa.jpg",
+        },
+        {
+            name: "Trời Ơi",
+            singer: "Lê Cát Trọng Lý",
+            path: "./assets/music/Trời Ơi - Lê Cát Trọng Lý.mp3",
+            image: "./assets/img/lecattrongly.jpg",
+        },
+        {
+            name: "Thương",
+            singer: "Lê Cát Trọng Lý",
+            path: "./assets/music/Thương - Lê Cát Trọng Lý.mp3",
+            image: "./assets/img/lecattrongly.jpg",
+        },
+        {
+            name: "Tám Chữ Có",
+            singer: "Lê Cát Trọng Lý",
+            path: "./assets/music/Tám Chữ Có - Lê Cát Trọng Lý.mp3",
+            image: "./assets/img/lecattrongly.jpg",
         },
         // {
         //     name: "",
@@ -1997,21 +2207,6 @@ handleEvents() {
     window.addEventListener('mouseup', () => {
     isSeeking = false;
     });
-
-    // Cập nhật progress bar (không ghi đè khi đang kéo)
-    function updateProgress() {
-    if (audioPlayer.duration && !isSeeking) {
-        const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
-        progressBar.value = progress;
-        currentTimeEl.textContent = formatTime(audioPlayer.currentTime);
-
-        progressBar.style.background = `linear-gradient(to right, 
-        #a78bfa 0%, 
-        #ec4899 ${progress / 2}%, 
-        #f97316 ${progress}%, 
-        #e5e7eb ${progress}%)`;
-    }
-    }
 
     // Next / Prev
     btnNext.onclick = () => { _this.isRandom ? _this.randomSong() : _this.nextSong(); audio.play(); };
