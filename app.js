@@ -2200,6 +2200,7 @@ handleEvents() {
             audio.currentTime = (e.offsetX / progressBar.offsetWidth) * audio.duration;
         }
     };
+    
     window.onmouseup = () => isHolding = false;
 
     // Next / Prev
@@ -2282,7 +2283,7 @@ handleEvents() {
 
         window.onmouseup = function () {
             // Đặt biến này để có thể vừa giữ vừa kéo được khi tua
-            _this.isHoldProgressBar = false;
+            _this.isHoldProgressBar = true;
             _this.isHoldVolumeBar = false;
         };
     },
